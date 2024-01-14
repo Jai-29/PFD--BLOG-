@@ -74,6 +74,23 @@ header.shadow .logo {
     padding: 18px 0;
 }
 
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav li {
+    margin: 0 15px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 1rem;
+}
+
 .logo {
     font-size: 1.5rem;
     font-weight: 600;
@@ -98,14 +115,22 @@ header.shadow .logo {
     transition: .5s;
 }
 
+/* Add these rules to your style.css file */
+
 .home {
     width: 100%;
     min-height: 440px;
-    background: url("images/banner2.png");
+    height: 100vh;
+    /* Set height to full viewport height */
+    background: url("https://preview.redd.it/w52vxsl1hyn91.png?auto=webp&s=66ea415bd5cc2737ed091e7c5f90b53cd69a4662");
+    background-size: cover;
+    background-position: center;
     display: grid;
     justify-content: center;
     align-items: center;
 }
+
+
 
 .home-text {
     color: var(--bg-color);
